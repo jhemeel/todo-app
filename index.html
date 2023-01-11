@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./todo.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+          <div>
+            <h1>Todo App</h1>
+            <div class="todo-container">
+              <input type="text" name="text" id="text" required />
+              <input type="hidden" name="save-index" id="save-index" />
+              <button type="button" id="addBtn">Add</button>
+              <button type="button" id="save-changes" style="display:none">Edit Todo</button>
+            </div>
+          </div>
+          <ul>
+            <li id="new-list"></li>
+          </ul>
+      
+        </div>
+      </div>
+
+
+      <script src="./todo.js"></script>
+</body>
+</html>
